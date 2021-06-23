@@ -10,7 +10,3 @@ steps:
       - python -m pip install -r requirements.txt
       - flake8
 
-trigger:
-  event:
-    exclude:
-    - push
