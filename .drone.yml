@@ -11,11 +11,7 @@ steps:
       - flake8
       
       
-trigger:
-  branch:
-   - peace
-  event:
-   - push
+
 
       
       
