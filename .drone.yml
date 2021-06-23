@@ -12,8 +12,9 @@ steps:
       
 trigger:
   branch:
-    exclude:
     - peace
+    event:
+    - push
       
       
 
