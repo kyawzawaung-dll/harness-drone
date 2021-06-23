@@ -11,6 +11,11 @@ steps:
       - flake8
       
       
+trigger:
+  branch:
+  - peace
+      
+      
 
       
 
