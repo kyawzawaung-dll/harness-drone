@@ -17,6 +17,7 @@ trigger:
   branch:
     include:
     - branch1
+    - main
     
       
 
