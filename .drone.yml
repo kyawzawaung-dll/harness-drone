@@ -10,7 +10,10 @@ steps:
       - flake8
       
 
-      
+  
+trigger:
+  branch:
+  - branch2
       
       
 
