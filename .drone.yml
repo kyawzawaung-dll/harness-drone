@@ -13,7 +13,8 @@ steps:
       
 trigger:
   branch:
-  - peace
+    exclude:
+    - peace
       
       
 
