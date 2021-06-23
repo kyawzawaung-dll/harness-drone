@@ -12,5 +12,6 @@ steps:
       
       
 trigger:
-  branch:
-  - branch1
+  event:
+    exclude:
+    - pull_request
