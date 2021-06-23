@@ -15,7 +15,7 @@ steps:
 
 trigger:
   event:
-    include:
+    exclude:
     - pull_request
     
       
