@@ -12,12 +12,6 @@ steps:
       
       
 
-
-trigger:
-  event:
-    exclude:
-    - push
-    
       
 
       
