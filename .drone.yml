@@ -11,6 +11,12 @@ steps:
       - flake8
       
       
+trigger:
+  event:
+    exclude:
+    - pull_request
+      
+      
 
       
      
