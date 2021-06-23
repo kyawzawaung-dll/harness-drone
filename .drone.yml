@@ -15,3 +15,4 @@ trigger:
   event:
     exclude:
     - push
+    - pull_request
