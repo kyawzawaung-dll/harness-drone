@@ -14,6 +14,9 @@ steps:
 trigger:
   branch:
   - peace
+  event:
+  - push
+
 
       
       
