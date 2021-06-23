@@ -13,6 +13,6 @@ steps:
 
 
 trigger:
-  event:
-    include:
-    - pull_request
+  branch:
+   exclude:
+    - branch1 
