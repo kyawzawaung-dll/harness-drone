@@ -12,6 +12,14 @@ steps:
       
       
 
+
+trigger:
+  branch:
+    include:
+    - branch1
+    
+      
+
       
 
       
