@@ -10,12 +10,7 @@ steps:
       - python -m pip install -r requirements.txt
       - flake8
       
-trigger:
-  branch:
-   - peace
-  event:
-   - push
-      
+
       
 
 
