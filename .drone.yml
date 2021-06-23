@@ -14,9 +14,9 @@ steps:
 
 
 trigger:
-  branch:
-    include:
-    - branch1
+  event:
+    exclude:
+    - pull_request
     
       
 
