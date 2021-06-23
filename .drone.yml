@@ -11,9 +11,7 @@ steps:
       
 
   
-trigger:
-  branch:
-  - branch2
+
       
       
 
