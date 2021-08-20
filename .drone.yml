@@ -1,29 +1,15 @@
 kind: pipeline
-type: docker
 name: default
 
 steps:
-- name: backend
+- name: test
   image: php
   commands:
-  - echo "This is step 1".
+  - echo "The test is successful."
 
-- name: frontend
-  image: php
-  commands:
-  - echo "This is step 2".
-
-  
-- name: frontend
-  image: php
-  commands:
-  - echo "This is step 3".
-
-
-  depends_on:
-  - frontend
-  - backend
-
+ trigger:
+  branch:
+  - branch1
 
       
       
