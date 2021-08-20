@@ -1,15 +1,17 @@
 kind: pipeline
+type: docker
 name: default
 
-steps:
-- name: test
-  image: php
-  commands:
-  - echo "The test is successful."
+platform:
+  os: linux
+  arch: amd64
 
- trigger:
-  branch:
-  - branch1
+steps:
+- name: build
+  image: golang
+  commands:
+  - go build
+  - go test
 
       
       
