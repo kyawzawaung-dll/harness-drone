@@ -8,10 +8,9 @@ platform:
 
 steps:
 - name: build
-  image: golang
+  image: php
   commands:
-  - go build
-  - go test
+  - echo "Hello"
 
       
       
