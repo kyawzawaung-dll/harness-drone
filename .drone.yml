@@ -5,7 +5,7 @@ steps:
 - name: test
   image: php
   commands:
-  - echo "The test is successful."
+  - echo "The test is success"
 
 trigger:
   branch:
