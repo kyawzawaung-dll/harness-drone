@@ -1,13 +1,13 @@
 kind: pipeline
 type: docker
-name: linux
+name: linux-amd64
 platform:
   arch: amd64
   os: linux
 
 steps:
-- name: build
-  image: golang
+- name: test
+  image: golang:1.14.4
 
       
       
